@@ -1,92 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <title>Are you a gamer - quizz game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-<header>
-    <a href="index.html"> <img src="./assets/img/rinnegan-6049194_1280.webp" alt=""></a>
-
-    <div>
-        <h3>Mieux vaut travailler par soi-meme que tricher!</h3>
-    </div>
-    <nav>
-        <a href="index2.html">read me</a>
-    </nav>
-</header>
-
 
 <body>
+  <header>
+    <h1>Tu es un tricheur ou un bosseur ?</h1>
+    <h3>Réponds aux questions sans adopter de comportements suspects</h3>
+  </header>
 
+  <div id="main" class="main">
+    <img id="pictureId" />
+    <div id="pollOptions" class="choises"></div>
+  </div>
 
-    <main>
-        <!--    <div id="loader" class="flex_center">
-            <span class="loader"></span>
-        </div> -->
-        <div class="presentation">
-            <h1>Détecteur de contenu IA</h1>
-            <p>Répondez aux différentes questions posées ici</p>
-        </div>
+  <footer>
+    <div id="resultShow"></div>
+    <form>
+    </form>
+  </footer>
 
-    </main>
-    <br> <br>
-    <section>
-        <div class="contenu">
-            <div class="texte">
-                <h1>
-                    Nous recherchons du contenu humain, pas de l'IA
-                </h1>
-                <br>
-                <p>Notre application a été formé pour apprendre les modèles d'écriture humaine. Par conséquent, lorsque
-                    les modèles connus d’écriture humaine sont perturbés, notre application le signale comme un contenu
-                    potentiel d’IA. De plus, nous testons continuellement notre modèle d'IA et le recycleons avec de
-                    nouvelles données et commentaires, contribuant ainsi à améliorer la précision. </p>
-
-            </div>
-            <div class="image">
-                <img src="./assets/img/raw.webp" alt="">
-            </div>
-        </div>
-        <br> <br> <br>
-        <div class="contenu2">
-            <div class="img2">
-                <img src="./assets/img/Lang-detector_1.png" alt="">
-            </div>
-            <div class="texte2">
-                <h1>
-                    Détecter dans plusieurs langages de codage
-                </h1>
-                <br>
-                <p>Chaque analyse lit le code sous forme de jetons individuels basés sur un langage de codage unique,
-                    fournissant ainsi des résultats plus précis et plus approfondis. Les langages pris en charge
-                    incluent Ruby, JavaScript, CSS, Markdown, TypeScript, Python, C++, C, Java, C# et PHP.</p>
-            </div>
-        </div>
-    </section>
-
-
-
-    <a href="./quizz/index.html">
-        <h1 id="start">- COMMENCER - </h1>
-    </a>
-    <footer>
-        <p class="flex_center" id="year">
-            © copyright
-        </p>
-    </footer>
-
-    <script src="../babinks/assets/js/rudyscript.js"></script>
-
-
+  <input type="button" onClick="history.go(0)" value="Recommencer" id="reload" style="display: none" />
+  <script src="script.js"></script>
+  <script src="db.js"></script>
+  <script src="server.js"></script>
 </body>
 
 </html>

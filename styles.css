@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  color: #75118c;
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+
+.main {
+  text-align: center;
+}
+
+.choises {
+  color: #fffafa;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+img {
+  width: 600px;
+  height: 400px;
+  margin: 40px 0;
+  border: 2px solid #6a0781;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: gold;
+  color: red;
+  font-size: 35px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reload{
+  margin-left: 650px;
+  width: 100px;
+  margin-top: 30px;
+}
