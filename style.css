@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: Bold 700px;
+}
+
+main {
+    background-color: #341B4F;
+    color: white;
+}
+
+header img {
+    width: 70px;
+    margin-left: 30px;
+}
+
+
+header {
+    background-color: #341B4F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+body {
+    background: #532B7D;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div h3 {
+    color: white;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#loader {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: absolute;
+    background-image: url(./pain-rinnegan-wallpaper-iukrvhs7i242pdw0.jpg);
+    background-repeat: no-repeat;
+    background-size: 1480px;
+    transition: 3s ease-in-out;
+    z-index: 3;
+}
+
+.slogan {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+    color: white;
+}
+
+.presentation {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.presentation p {
+    padding: 20px;
+}
+
+.presentation h1 {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(121, 121, 244));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.contenu {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin-left: 220px;
+    margin-inline-end: 90px;
+}
+
+.contenu img {
+    width: 430px;
+    border: 5px solid #341B4F;
+    margin-inline-start: 70px
+}
+
+.texte {
+    width: 600px;
+}
+
+.contenu2 {
+    display: flex;
+    margin-left: 220px;
+}
+
+.contenu2 img {
+    width: 500px;
+    border: 5px solid #341B4F;
+    background-color: violet;
+    z-index: 2;
+   
+}
+
+.contenu2 .texte2 {
+    width: 480px;
+    margin-inline-start: 70px;
+}
+
+footer {
+    
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    
+}
+
+#start {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    background: black;
+}
+
+#start:hover {
+    color: aqua;
+}
